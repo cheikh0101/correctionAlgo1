@@ -1,0 +1,25 @@
+variable:x:entier;
+debut
+	ecrire("donner un nombre");
+	lire(x);
+	si(x=1) alors
+		ecrire("lundi");
+	sinon
+		si(x=2)alors
+			ecrire("mardi");
+		finsi
+		
+		sinon
+			si(x=3)alors
+				ecrire("mercredi");
+			finsi
+			sinon
+		
+				si(x=4)alors
+					ecrire("jeudi");
+				finsi
+				sinon
+					si(x=5)alors
+						ecrire("vendredi");
+					finsi
+	fin
